@@ -1,0 +1,126 @@
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+.navbar-custom {
+  background-color: #30633d;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+h3, h4, h5 {
+  color: #30633d;
+}
+
+
+
+.business-hours {
+background: white;
+position: relative;
+}
+
+.business-hours .title {
+color: #30633d;
+padding-left: 5px;
+border-left: 4px solid #253615;
+}
+.business-hours li {
+color: #30633d;
+line-height: 30px;
+border-bottom: 1px solid #333;
+}
+.business-hours li:last-child {
+border-bottom: none;
+}
+.business-hours .opening-hours li.today {
+background-color: #30633d;
+color: #B5E8C1;
+}
+
+.btn-custom {
+  color: #1D800E;
+  border-bottom: 1px solid #30633d;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1rem;
+    color: #1D800E;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 1rem;
+    content: "\f106";
+    color: #1D800E;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1rem;
+}
+
+.panel-body p a,
+.panel-body ul li a {
+  color: #1D800E;
+}
+
+.sr-only {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+@media (max-width: 767px) {
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 50%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .column-2,
+    .column-1 {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel-caption {
+        h5 {
+            font-size: 1rem;
+        }
+    }
+}
